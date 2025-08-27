@@ -1,0 +1,21 @@
+## Estructura del proyecto:
+```
+tp-torneos/
+  src/
+    interfaces/
+      IIdentificable.ts
+      ICompetidor.ts
+    models/
+      Jugador.ts
+      Equipo.ts
+      Deporte.ts
+      Futbol.ts
+      Basquet.ts
+      Resultado.ts
+      Partido.ts
+      Torneo.ts
+    main.ts
+  tsconfig.json
+  package.json
+  README.md
+```
