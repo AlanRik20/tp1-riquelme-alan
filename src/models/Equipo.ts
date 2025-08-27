@@ -15,12 +15,13 @@ export class Equipo implements ICompetidor {
     }
 
     listarIntegrantes():string[]{
-        // console.log(`Listado de integrantes del equipo ${this.nombre}`);
         return this.jugadores.map(jugador => jugador.toString());
     }
 
     toString(): string {
         return `Equipo: ${this.nombre}, Jugadores: ${this.listarIntegrantes().join(", ")}`;
     }   
-
+    get cantidad(): number{
+        return this.jugadores.length;
+    }
 }
