@@ -7,7 +7,6 @@ export class Basquet extends Deporte{
     }
 
     validar(equipo:Equipo): boolean {
-        // const tieneArquero = equipo.jugadores.some(jugador => jugador.posicion?.toLowerCase() === 'arquero');
         return equipo.cantidad <= this.maxPorEquipo;
     }
 
